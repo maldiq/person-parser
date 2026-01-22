@@ -1,0 +1,68 @@
+{
+  "info": {
+    "_postman_id": "e36f8329-079a-4074-b0d1-f2cb71768c4c",
+    "name": "Restful API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "7980368"
+  },
+  "item": [
+    {
+      "name": "Backend Submit",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"rawInput\": \"CUT MINI 28 BANDA ACEH\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/submit",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "submit"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Frontend Submit",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"rawInput\": \"CUT MINI 28 THN BANDA ACEH\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/person",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "person"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
